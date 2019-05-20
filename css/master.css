@@ -1,5 +1,6 @@
 html{
   background-image: url(../image/1_back.png);
+  background-attachment:fixed;
   padding-top: 150px;
   padding-bottom: 200px;
 
@@ -26,6 +27,15 @@ border-radius: 10px;
 }
 .su{
   margin-top: 100px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#s1{
+  margin: 0px;
+  padding-left: 5px;
+}
+#s2{
+  padding-top: 5px;
 }
 #linke{
   float: left;
@@ -48,6 +58,9 @@ border-radius: 10px;
   padding-top: 30px;
   border-radius: 10px;
   align-items: center;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
 }
 .site #dcue1{
   align-items: center;
@@ -57,13 +70,16 @@ border-radius: 10px;
       border-bottom: 1px solid #e5e5e5;
       padding-bottom: 5px;
 }
+.widgetBtnConnect-2fvtGa{
+  background-color: rgb(122, 240, 4);
+}
 .discrd_f{
   margin: auto;
   align-content: center;
   align-items: center;
   display: flex;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 .foot{
   bottom: 0;
@@ -97,6 +113,7 @@ border-radius: 10px;
   margin: auto;
   padding-top: 0%;
   justify-content: center;
+  border-top:5px solid #1469e8;
   -moz-box-shadow:1px 1px 6px #a0a0a0; /* Firefox */
 -webkit-box-shadow:1px 1px 6px #a0a0a0; /* Chrome, Safari */
 -khtml-box-shadow:1px 1px 6px #a0a0a0; /* Konqueror */
@@ -175,6 +192,8 @@ footer{
   background-color: rgb(66, 224, 88);
   margin: 0px;
   padding: 10px;
+  border-bottom:1px solid #8b8b8b;
+
 
   color: white;
   margin-left: -20px;
@@ -200,34 +219,41 @@ footer{
   text-align: center;
   margin-left: -20px;
   margin-right: -20px;
-  margin-bottom: 0px;
+  margin-top: 0px;
 
 }
 .server_p{
 
-     padding: 3px;
+     padding: 0px;
+     font-family: Courier New, monospace;
      justify-content: center;
      display: flex;
      left: 0;
      right: 0;
      align-items: center;
      float: left;
-     background-color: rgb(52, 152, 215);
-     border-radius: 5px;
+     background-color: rgb(75, 120, 255);
+     border-radius: 5px 0px 5px 0px;
      color: white;
-
-     padding-bottom: 10px;
+     padding-bottom: 0px;
+     padding-top: 0px;
+     padding-right: 5px;
      margin: 5px;
+     -moz-box-shadow:1px 1px 6px #a0a0a0; /* Firefox */
+   -webkit-box-shadow:1px 1px 6px #a0a0a0; /* Chrome, Safari */
+   -khtml-box-shadow:1px 1px 6px #a0a0a0; /* Konqueror */
+   box-shadow:1px 1px 6px #a0a0a0; /* CSS3 */
 
 }
 .server_p .s1 .s2{
   background-color: rgb(52, 152, 215);
 }
 .server_of{
-  background-color: rgb(224, 66, 66);
-  margin: 0px;
+  background-color: rgb(217, 50, 50);
+
+  margin-top: 100px;
   padding: 10px;
-  padding-top: 10px;
+
 
   color: white;
   margin-left: 10px;
@@ -236,7 +262,7 @@ footer{
   display: block;
   margin-left: -20px;
   margin-right: -20px;
-  margin-top: 67px;
+  margin-top: 0px;
   text-align: center;
 
 }
