@@ -33,6 +33,8 @@ border-radius: 10px;
 #s1{
   margin: 0px;
   padding-left: 5px;
+  margin-bottom: 10px;
+  position: #static;
 }
 #s2{
   padding-top: 5px;
@@ -206,6 +208,10 @@ footer{
 #checks:hover{
   text-decoration: none;
 }
+server{
+  color: black;
+
+}
 .server_o{
   background-color: rgb(66, 224, 88);
   margin: 10px;
@@ -248,6 +254,14 @@ footer{
 .server_p .s1 .s2{
   background-color: rgb(52, 152, 215);
 }
+.clipbord_b{
+  float: right;
+  cursor: pointer;
+
+}
+.support_pics{
+  height: 150px;
+}
 .server_of{
   background-color: rgb(217, 50, 50);
 
@@ -264,5 +278,49 @@ footer{
   margin-right: -20px;
   margin-top: 0px;
   text-align: center;
+}
+.get_modpack{
+  width: auto;
+  height: 50px;
+}
+.extra-class{
+  background: #3a3a3a;
+  border: 1px solid #ddd;
+  border-left: 3px solid #f36d33;
+  border-radius: 10px;
+  color: #e8e8e8;
+  page-break-inside: avoid;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em 1.5em;
+  display: block;
+  word-wrap: break-word;
+}
+div.imageHold {
+  padding: 55px 85px; /* damit der container die höhe des großen bildes annimmt */
+  /* andere formatierung, z.B. zentrieren/etc: */
+  /* .... */
+}
+div.imageHold div {
+  float: left;
+  width: 230px;
+  height: 150px;
+  /* ab hier kann man die abstände
+  und sonstiges der bilder eintragen */
 
+}
+div.imageHold img {
+  width: 230px;  /* wir skalieren das große bild auf die kleine größe */
+  height: 150px; /* um verpixelung beim vergößern zu verhindern       */
+}
+div.imageHold img:hover {
+  position: absolute;
+  margin-left: -85px; /* die hälfte des größenunterschiedes der bilder */
+  margin-top: -55px;  /* hier genau so */
+  width: 860px;       /* die weite beim vergrößern */
+  height: 630px;      /* die höhe beim vergrößern */
 }
