@@ -7,10 +7,10 @@
  */
 
 //Mysql Verbindung = Änder diese wenn es auf ein Fremden Server läuft.
-$db_host="localhost";
+$db_host="127.0.0.1";
 $db_user="root";
 $db_password="";
-$db_database="test";
+$db_database="remix";
 //Index.php Configation.
 
 $web_title="Space Remix Servertool";
@@ -27,9 +27,9 @@ $navigation_site6="<i class=\"fab fa-wikipedia-w\"></i> Wiki";
 $navigation_site7="<i class=\"far fa-copyright\">  </i>  Jomlua.de";
 
 // Server Querry Configation
-$ip = "jomlua.de"; //ip from minecraft server
-$port = "25566"; // Port from minecraft server / Default: 25565
-$discord_ID = "444474379276124162"; // Wie finde ich meine ID? Get https://support.discordapp.com/hc/de/articles/206346498-Wie-finde-ich-meine-Server-ID-
+$ip = "127.0.0.1"; //ip from minecraft server
+$port = "25565"; // Port from minecraft server / Default: 25565
+$discord_ID = "000000000000000000000"; // Wie finde ich meine ID? Get https://support.discordapp.com/hc/de/articles/206346498-Wie-finde-ich-meine-Server-ID-
 
 
 
