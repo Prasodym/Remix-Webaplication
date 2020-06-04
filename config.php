@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Jomlua - A PHP Framework For Web Artisans.
+ * Jomlua - Webprogramm.
  *
  * @author   Tobias Bieder <bieder@jomlua.de>
  */
